@@ -9,7 +9,7 @@ window.onload = async function() {
         // <div id = "1" class="pokemon-name">BULBASAUR</div>
         let pokemon = document.createElement("div");
         pokemon.id = i;
-        pokemon.innerText = i.toString() + "." + pokedex[i]["name"].toUpperCase();
+        pokemon.innerText = i.toString() + "." + " " + pokedex[i]["name"].toUpperCase();
         pokemon.classList.add("pokemon-names");
         pokemon.addEventListener("click", updatePokemon);
         document.getElementById("pokemon-list").append(pokemon);
@@ -27,7 +27,7 @@ async function getPokemon(num) {
     console.log(pokemon);
 
     let pokemonName = pokemon["name"];
-    let pokemonNumber = pokemon["order"];
+    let pokemonNumber = pokemon["id"];
     let pokemonType = pokemon["types"];
     let pokemonImg = pokemon["sprites"]["front_default"];
     let pokemonHeight = pokemon["height"];
@@ -39,7 +39,7 @@ async function getPokemon(num) {
     console.log(pokemonDesc);
     pokemonDesc = pokemonDesc["flavor_text_entries"][8]["flavor_text"]
 
-    pokedex[num] = {"name" : pokemonName, "order": pokemonNumber, "img": pokemonImg, "types" : pokemonType, "desc" : pokemonDesc, "height" : pokemonHeight, "weight": pokemonWeight}
+    pokedex[num] = {"name" : pokemonName, "id" : pokemonNumber, "img": pokemonImg, "types" : pokemonType, "desc" : pokemonDesc, "height" : pokemonHeight, "weight": pokemonWeight}
 }
 
 function updatePokemon() {
@@ -49,7 +49,7 @@ function updatePokemon() {
     document.getElementById("pokemon-name").innerText = pokedex[this.id]["name"].toUpperCase();
 
     // update number
-    document.getElementById("pokemon-num").innerText = pokedex[this.id]["order"];
+    document.getElementById("pokemon-num").innerText = pokedex[this.id]["id"];
 
     // clear previous type
     let typesDiv = document.getElementById("pokemon-types");
