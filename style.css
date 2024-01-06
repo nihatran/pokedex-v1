@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1100px;
+    height: 500px;
+    border-radius: 15px;
+    border: 10px solid grey;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+}
+
+.pokemon-img {
+    width: 200px;
+    height: 200px;
+}
+
+.pokemon-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 300px;
+    height: 250px;
+    gap: 20px;
+}
+
+.pokemon-num-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 255px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    border-top: 10px solid red;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 10px 10px 5px rgb(212, 210, 210);
+}
+
+.img-num {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.img-num img {
+    width: 30px;
+}
+
+
+.pokemon-types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 260px;
+    height: 50px;
+    font-size: 22px;
+}
+
+.type-box {
+    width: 100px;
+    padding: 9px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.pokemon-height-weight {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    width: 250px;
+    height: 60px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px rgb(212, 210, 210);
+}
+
+.ht-wt-text, .ht-wt-num {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pokemon-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px 5px 30px;
+    width: 410px;
+    height: 110px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-top: 2px solid black;
+    border-left: 15px solid red;
+    border-right: 15px solid red;
+    border-bottom: 2px solid black;
+    box-shadow: 10px 10px 5px rgb(212, 210, 210);
+}
+
+.pokemon-list {
+    width: 400px;
+    height: 470px;
+    font-size: 20px;
+    overflow-y: auto;
+
+    border: 2px solid yellow;
+}
+
+
+.normal {
+    background-color: rgb(212, 212, 208);
+    color: black;
+}
+
+.fire {
+    background-color: rgb(241, 168, 73);
+    color: white;
+}
+
+.grass {
+    background-color: rgb(107, 194, 107);
+    color: white;
+}
+
+.water {
+    background-color: rgb(64, 141, 230);
+    color: white;
+}
+
+.ice {
+    background-color: lightblue;
+    color: black;
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+}
+
+.fighting {
+    background-color: rgb(133, 49, 49);
+    color: white;
+}
+
+.flying {
+    background-color: rgb(156, 197, 224);
+    color: black;
+}
+
+.bug {
+    background-color: rgb(191, 219, 87);
+    color: white;
+}
+
+.ghost {
+    background-color: rgb(126, 42, 126);
+    color: white;
+}
+
+.rock {
+    background-color: rgb(163, 100, 71);
+    color: white;
+}
+
+.ground {
+    background-color: rgb(224, 193, 151);
+    color: black;
+}
+
+.steel {
+    background-color: rgb(204, 204, 204);
+    color: black;
+}
+
+.dark {
+    background-color: rgb(124, 110, 98);
+    color: white;
+}
+
+.psychic {
+    background-color: rgb(221, 138, 165);
+    color: white;
+}
+
+.fairy {
+    background-color: rgb(255, 187, 198);
+    color: black;
+}
+
+.dragon {
+    background-color: rgb(91, 3, 117);
+    color: white;
+}
+
+.poison {
+    background-color: rgb(172, 97, 204);
+    color: white;
+}
