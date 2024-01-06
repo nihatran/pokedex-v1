@@ -23,7 +23,7 @@ body {
     height: 900px;
     gap: 30px;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 10px solid grey;
 }
 
@@ -155,91 +155,91 @@ body {
 
 
 .normal {
-    background-color: rgb(212, 212, 208);
+    background-color: #A8A77A;
     color: black;
 }
 
 .fire {
-    background-color: rgb(241, 168, 73);
+    background-color: #EE8130;
     color: white;
 }
 
 .grass {
-    background-color: rgb(107, 194, 107);
+    background-color: #7AC74C;
     color: white;
 }
 
 .water {
-    background-color: rgb(64, 141, 230);
+    background-color: #6390F0;
     color: white;
 }
 
 .ice {
-    background-color: lightblue;
+    background-color: #96D9D6;
     color: black;
 }
 
 .electric {
-    background-color: gold;
+    background-color: #F7D02C;
     color: black;
 }
 
 .fighting {
-    background-color: rgb(133, 49, 49);
+    background-color: #C22E28;
     color: white;
 }
 
 .flying {
-    background-color: rgb(156, 197, 224);
+    background-color: #A98FF3;
     color: black;
 }
 
 .bug {
-    background-color: rgb(191, 219, 87);
+    background-color: #A6B91A;
     color: white;
 }
 
 .ghost {
-    background-color: rgb(126, 42, 126);
+    background-color: #735797;
     color: white;
 }
 
 .rock {
-    background-color: rgb(163, 100, 71);
+    background-color: #B6A136;
     color: white;
 }
 
 .ground {
-    background-color: rgb(224, 193, 151);
+    background-color: #E2BF65;
     color: black;
 }
 
 .steel {
-    background-color: rgb(204, 204, 204);
+    background-color: #B7B7CE;
     color: black;
 }
 
 .dark {
-    background-color: rgb(124, 110, 98);
+    background-color: #705746;
     color: white;
 }
 
 .psychic {
-    background-color: rgb(221, 138, 165);
+    background-color: #F95587;
     color: white;
 }
 
 .fairy {
-    background-color: rgb(255, 187, 198);
+    background-color: #D685AD;
     color: black;
 }
 
 .dragon {
-    background-color: rgb(91, 3, 117);
+    background-color: #6F35FC;
     color: white;
 }
 
 .poison {
-    background-color: rgb(172, 97, 204);
+    background-color: #A33EA1;
     color: white;
 }
