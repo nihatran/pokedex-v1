@@ -13,7 +13,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 .content {
     display: flex;
     flex-direction: column;
@@ -82,7 +81,6 @@ body {
 .img-num img {
     width: 30px;
 }
-
 
 #pokemon-types {
     display: flex;

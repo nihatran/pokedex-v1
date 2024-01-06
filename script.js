@@ -56,7 +56,7 @@ function updatePokemon() {
     while (typesDiv.firstChild) {
         typesDiv.firstChild.remove();
     }
-    // update types
+    // update type
     let types = pokedex[this.id]["types"];
     for(let i = 0; i < types.length; i++) {
         let type = document.createElement("span")
